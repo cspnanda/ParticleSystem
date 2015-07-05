@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1809EB671B4866FB005DB605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809EB661B4866FB005DB605 /* main.m */; };
+		1809EB6A1B4866FB005DB605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809EB691B4866FB005DB605 /* AppDelegate.m */; };
+		1809EB6D1B4866FB005DB605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809EB6C1B4866FB005DB605 /* ViewController.m */; };
+		1809EB701B4866FB005DB605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1809EB6E1B4866FB005DB605 /* Main.storyboard */; };
+		1809EB721B4866FB005DB605 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1809EB711B4866FB005DB605 /* Images.xcassets */; };
+		1809EB751B4866FB005DB605 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1809EB731B4866FB005DB605 /* LaunchScreen.xib */; };
+		1809EB811B4866FB005DB605 /* ParticleSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809EB801B4866FB005DB605 /* ParticleSystemTests.m */; };
+		1809EB8C1B48670D005DB605 /* WaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = 1809EB8A1B48670D005DB605 /* WaterFall.m */; };
+		1809EB8E1B48695F005DB605 /* fromright.png in Resources */ = {isa = PBXBuildFile; fileRef = 1809EB8D1B48695F005DB605 /* fromright.png */; };
+		1809EB921B48A921005DB605 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1809EB911B48A921005DB605 /* drop.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1809EB7B1B4866FB005DB605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1809EB591B4866FB005DB605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1809EB601B4866FB005DB605;
+			remoteInfo = ParticleSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1809EB611B4866FB005DB605 /* ParticleSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1809EB651B4866FB005DB605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1809EB661B4866FB005DB605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1809EB681B4866FB005DB605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1809EB691B4866FB005DB605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1809EB6B1B4866FB005DB605 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1809EB6C1B4866FB005DB605 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1809EB6F1B4866FB005DB605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1809EB711B4866FB005DB605 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1809EB741B4866FB005DB605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1809EB7A1B4866FB005DB605 /* ParticleSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1809EB7F1B4866FB005DB605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1809EB801B4866FB005DB605 /* ParticleSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleSystemTests.m; sourceTree = "<group>"; };
+		1809EB8A1B48670D005DB605 /* WaterFall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFall.m; sourceTree = "<group>"; };
+		1809EB8B1B48670D005DB605 /* WaterFall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFall.h; sourceTree = "<group>"; };
+		1809EB8D1B48695F005DB605 /* fromright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fromright.png; sourceTree = "<group>"; };
+		1809EB911B48A921005DB605 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1809EB5E1B4866FB005DB605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1809EB771B4866FB005DB605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1809EB581B4866FB005DB605 = {
+			isa = PBXGroup;
+			children = (
+				1809EB911B48A921005DB605 /* drop.png */,
+				1809EB631B4866FB005DB605 /* ParticleSystem */,
+				1809EB7D1B4866FB005DB605 /* ParticleSystemTests */,
+				1809EB621B4866FB005DB605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1809EB621B4866FB005DB605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1809EB611B4866FB005DB605 /* ParticleSystem.app */,
+				1809EB7A1B4866FB005DB605 /* ParticleSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1809EB631B4866FB005DB605 /* ParticleSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1809EB8A1B48670D005DB605 /* WaterFall.m */,
+				1809EB8B1B48670D005DB605 /* WaterFall.h */,
+				1809EB681B4866FB005DB605 /* AppDelegate.h */,
+				1809EB691B4866FB005DB605 /* AppDelegate.m */,
+				1809EB6B1B4866FB005DB605 /* ViewController.h */,
+				1809EB6C1B4866FB005DB605 /* ViewController.m */,
+				1809EB6E1B4866FB005DB605 /* Main.storyboard */,
+				1809EB8D1B48695F005DB605 /* fromright.png */,
+				1809EB711B4866FB005DB605 /* Images.xcassets */,
+				1809EB731B4866FB005DB605 /* LaunchScreen.xib */,
+				1809EB641B4866FB005DB605 /* Supporting Files */,
+			);
+			path = ParticleSystem;
+			sourceTree = "<group>";
+		};
+		1809EB641B4866FB005DB605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1809EB651B4866FB005DB605 /* Info.plist */,
+				1809EB661B4866FB005DB605 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1809EB7D1B4866FB005DB605 /* ParticleSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				1809EB801B4866FB005DB605 /* ParticleSystemTests.m */,
+				1809EB7E1B4866FB005DB605 /* Supporting Files */,
+			);
+			path = ParticleSystemTests;
+			sourceTree = "<group>";
+		};
+		1809EB7E1B4866FB005DB605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1809EB7F1B4866FB005DB605 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1809EB601B4866FB005DB605 /* ParticleSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1809EB841B4866FB005DB605 /* Build configuration list for PBXNativeTarget "ParticleSystem" */;
+			buildPhases = (
+				1809EB5D1B4866FB005DB605 /* Sources */,
+				1809EB5E1B4866FB005DB605 /* Frameworks */,
+				1809EB5F1B4866FB005DB605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleSystem;
+			productName = ParticleSystem;
+			productReference = 1809EB611B4866FB005DB605 /* ParticleSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1809EB791B4866FB005DB605 /* ParticleSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1809EB871B4866FB005DB605 /* Build configuration list for PBXNativeTarget "ParticleSystemTests" */;
+			buildPhases = (
+				1809EB761B4866FB005DB605 /* Sources */,
+				1809EB771B4866FB005DB605 /* Frameworks */,
+				1809EB781B4866FB005DB605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1809EB7C1B4866FB005DB605 /* PBXTargetDependency */,
+			);
+			name = ParticleSystemTests;
+			productName = ParticleSystemTests;
+			productReference = 1809EB7A1B4866FB005DB605 /* ParticleSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1809EB591B4866FB005DB605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "C S Prasanna Nanda";
+				TargetAttributes = {
+					1809EB601B4866FB005DB605 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1809EB791B4866FB005DB605 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1809EB601B4866FB005DB605;
+					};
+				};
+			};
+			buildConfigurationList = 1809EB5C1B4866FB005DB605 /* Build configuration list for PBXProject "ParticleSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1809EB581B4866FB005DB605;
+			productRefGroup = 1809EB621B4866FB005DB605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1809EB601B4866FB005DB605 /* ParticleSystem */,
+				1809EB791B4866FB005DB605 /* ParticleSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1809EB5F1B4866FB005DB605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809EB701B4866FB005DB605 /* Main.storyboard in Resources */,
+				1809EB751B4866FB005DB605 /* LaunchScreen.xib in Resources */,
+				1809EB921B48A921005DB605 /* drop.png in Resources */,
+				1809EB8E1B48695F005DB605 /* fromright.png in Resources */,
+				1809EB721B4866FB005DB605 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1809EB781B4866FB005DB605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1809EB5D1B4866FB005DB605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809EB6D1B4866FB005DB605 /* ViewController.m in Sources */,
+				1809EB6A1B4866FB005DB605 /* AppDelegate.m in Sources */,
+				1809EB671B4866FB005DB605 /* main.m in Sources */,
+				1809EB8C1B48670D005DB605 /* WaterFall.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1809EB761B4866FB005DB605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809EB811B4866FB005DB605 /* ParticleSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1809EB7C1B4866FB005DB605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1809EB601B4866FB005DB605 /* ParticleSystem */;
+			targetProxy = 1809EB7B1B4866FB005DB605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1809EB6E1B4866FB005DB605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1809EB6F1B4866FB005DB605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1809EB731B4866FB005DB605 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1809EB741B4866FB005DB605 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1809EB821B4866FB005DB605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1809EB831B4866FB005DB605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1809EB851B4866FB005DB605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1809EB861B4866FB005DB605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1809EB881B4866FB005DB605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParticleSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleSystem.app/ParticleSystem";
+			};
+			name = Debug;
+		};
+		1809EB891B4866FB005DB605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParticleSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleSystem.app/ParticleSystem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1809EB5C1B4866FB005DB605 /* Build configuration list for PBXProject "ParticleSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1809EB821B4866FB005DB605 /* Debug */,
+				1809EB831B4866FB005DB605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1809EB841B4866FB005DB605 /* Build configuration list for PBXNativeTarget "ParticleSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1809EB851B4866FB005DB605 /* Debug */,
+				1809EB861B4866FB005DB605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1809EB871B4866FB005DB605 /* Build configuration list for PBXNativeTarget "ParticleSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1809EB881B4866FB005DB605 /* Debug */,
+				1809EB891B4866FB005DB605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1809EB591B4866FB005DB605 /* Project object */;
+}

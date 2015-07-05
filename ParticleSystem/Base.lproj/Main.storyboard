@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fromright.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lda-TW-dJA">
+                                <rect key="frame" x="377" y="185" width="223" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="0Y0-9S-PPf"/>
+                                    <constraint firstAttribute="width" constant="302" id="LBd-kl-Pie"/>
+                                    <constraint firstAttribute="height" constant="289" id="f2c-Tk-2v7"/>
+                                    <constraint firstAttribute="width" constant="223" id="s6i-We-Fqb"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LBd-kl-Pie"/>
+                                        <exclude reference="f2c-Tk-2v7"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLE-Wm-hwH">
+                                <rect key="frame" x="421" y="283" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="6gP-4s-GPQ"/>
+                                    <constraint firstAttribute="height" constant="20" id="w3z-8n-n2T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BRe-wd-h8n">
+                                <rect key="frame" x="219" y="28" width="163" height="29"/>
+                                <segments>
+                                    <segment title="Full"/>
+                                    <segment title="Mist"/>
+                                </segments>
+                                <connections>
+                                    <action selector="waterModeChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="aS9-w6-bK4"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32156863808631897" green="0.80392163991928101" blue="0.90588241815567017" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="xLE-Wm-hwH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="405" id="9dG-1t-97m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lda-TW-dJA" secondAttribute="trailing" constant="-16" id="H5t-JY-UYY"/>
+                            <constraint firstItem="BRe-wd-h8n" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Nrl-tt-ZLg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xLE-Wm-hwH" secondAttribute="trailing" constant="143" id="QLk-9r-mkU"/>
+                            <constraint firstAttribute="centerX" secondItem="BRe-wd-h8n" secondAttribute="centerX" constant="-0.5" id="VjB-2x-MFX"/>
+                            <constraint firstAttribute="centerY" secondItem="Lda-TW-dJA" secondAttribute="centerY" constant="0.5" id="er0-Vg-275"/>
+                            <constraint firstItem="Lda-TW-dJA" firstAttribute="top" secondItem="xLE-Wm-hwH" secondAttribute="bottom" constant="-118" id="oRQ-rf-U4U"/>
+                            <constraint firstItem="xLE-Wm-hwH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="263" id="qV3-U1-Vgr"/>
+                            <constraint firstItem="xLE-Wm-hwH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="263" id="rpr-Zq-lT6"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="xLE-Wm-hwH" secondAttribute="bottom" constant="297" id="tmS-nj-Vvm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9dG-1t-97m"/>
+                                <exclude reference="qV3-U1-Vgr"/>
+                                <exclude reference="rpr-Zq-lT6"/>
+                                <exclude reference="tmS-nj-Vvm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="modeSelector" destination="BRe-wd-h8n" id="xf2-re-K4g"/>
+                        <outlet property="startPoint" destination="xLE-Wm-hwH" id="oNN-pc-Vgm"/>
+                        <outlet property="waterHose1" destination="Lda-TW-dJA" id="JcB-Z7-sky"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fromright.png" width="388" height="380"/>
+    </resources>
+</document>
